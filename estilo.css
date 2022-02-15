@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+    z-index: 1;
+    background: #03829e;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.cabecalho h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin: -10px 0 0 -300px;
+    padding-right: 60px;
+    cursor: default;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 42px;
+    margin: 20px 0 0 260px;
+}
+
+.cabecalho-menu a {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.cabecalho a:hover {
+    color: #00242c;
+}
+
+.conteudo {
+    margin:0 0 48px 0;
+}
+
+.resumo {
+    background: url(image/AMPLIC_gestao-de-projetos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.resumo-texto {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+
+.resumo-texto h2 {
+    font-size: 25px;
+}
+
+.resumo-texto p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.resumo-texto h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.resumo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumo-text h2 {
+    margin-bottom: 10px;
+}
+
+.resumo-text p {
+    text-align: justify;
+    width: 400px;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 10px;
+    margin-top: 140px;
+}
+
+.conteudo-principal h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #03829e;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 0 10px 0 50px;
+    text-align: justify;
+}
+
+.principal img {
+    width: 550px;
+    margin: 140px 70px 0 0;
+}
+
+.dicas {
+    border-top: 0.4px solid black;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dicas-textuais {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.dicas-textuais h2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    color: #03829e;
+}
+
+.dicas-textuais p {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin:0 20px 0 30px;
+}
+
+.dicas img {
+    width: 550px;
+    margin: 110px 0 0 20px;
+}
+
+.informativo {
+    font-family: 'Roboto', sans-serif;
+    border-top: 0.4px solid black;
+    margin-top: 40px;
+}
+
+.informativo h2 {
+    margin:0 0 20px 30px;
+    color: #03829e;
+}
+
+.informativo p {
+    text-align: justify;
+    margin: 20px 20px 20px 30px;
+}
+
+.inicio-informativo h2 {
+    margin-top: 40px;
+}
+
+.informativo span {
+    margin: 0 0 10px 30px;
+}
+
+.jornal {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.jornal img {
+    width: 500px;
+    margin: 0 60px 20px 30px;
+    filter:grayscale(100%);
+    transform: scale(1,1);
+    transition: 1s;
+}
+
+.jornal img:hover {
+    filter: grayscale(0);
+    transform: scale(1.1,1.1);
+}
+
+.verbete {
+    margin-top: 70px;
+}
+
+.verbete img {
+    width: 500px;
+    margin: 0 0 0 30px;
+}
+
+.jornalistico {
+    font-family: 'Roboto', sans-serif;
+    border-top: 0.4px solid black;
+    margin-top: 80px;
+    
+}
+
+.texto-jornalistico {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.jornalistico h2 {
+    color: #03829e;
+    margin: 60px 0 0 30px;
+}
+
+.texto-jornalistico p {
+    width: 700px;
+    text-align: justify;
+    margin: 20px 0 0 30px;
+}
+
+.img-jo {
+    height: 350px;
+    margin: -20px 50px 0 0;
+}
+
+.tecnico {
+    font-family: 'Roboto', sans-serif;
+    border-top: 0.4px solid black;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.texto-tecnico {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 40px;
+}
+
+.texto-tecnico h2 {
+    color: #03829e;
+    margin: 40px 0 0 30px;
+}
+
+.texto-tecnico p {
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.tecnico img {
+    width: 500px;
+    margin: 80px 30px 0 30px;
+}
+
+.final p {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0 0 30px ;
+}
+
+.paragrafo-final p {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 40px 0 30px ;
+    text-align: justify;
+}
+
+.rodape {
+    background: #03829e;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .cabecalho h2{
+        font-size: 15px;
+        margin-top: 1px;
+    }
+
+    .cabecalho-menu {
+        display: flex;
+        gap: 12px;
+        margin-top: 1px;
+    }
+
+    .resumo-texto {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .principal {
+        display: block;
+    }
+    
+    .conteudo h2 {
+        margin-left: -10px;
+    }
+
+    .conteudo-principal p {
+        margin-left: 30px;
+        height: 100px;
+        width: 700px;
+    }
+
+    .principal img {
+        margin-left: 120px;
+    }
+
+    .dicas {
+        display: block;
+    }
+
+    .dicas img {
+        margin: 100px 0 0 110px;
+    }
+
+    .dicas-textuais h2 {
+        margin-left: -30px;
+    }
+
+    .dicas-textuais p {
+        width: 700px;
+        margin-left: 30px;
+    }
+
+    .texto-jornalistico {
+        display: block;
+    }
+
+    .jornalistico h2 {
+        margin-left: 30px;
+    }
+
+    .jornalistico img {
+        margin: 60px 0 0 130px;
+    }
+
+
+    .texto-informativo h2 {
+        margin-left: 30px;
+    }
+
+    .texto-informativo p {
+        width: 720px;
+    }
+
+    .jornal {
+        display: block;
+    }
+
+    .jornal img {
+        margin: 40px 0 0 130px;
+    }
+
+    .verbete img {
+        margin-left: 130px;
+    }
+
+    .texto-tecnico h2 {
+        margin-left: 30px;
+    }
+
+    .final p {
+        width: 720px;
+    }
+
+    .tecnico img {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1370px) and (max-width: 1605px){
+    body {
+        background-color: #000;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width: 900px) {
+    .cabecalho {
+        font-size: 15px;
+    }
+
+    .cabecalho-menu {
+        float: none;
+    }
+
+    .resumo-texto {
+        position: absolute;
+        top: 120px;
+        left: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+}
